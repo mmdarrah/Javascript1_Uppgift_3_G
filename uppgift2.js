@@ -5,8 +5,9 @@ let katet2 = prompt("Lägga till andra Katet.");
 
 
 function pythagoras (){
-let sum = (katet1*2) + (katet2*2)
-return ("Hypotenusans längd i den rätvinklig triangel är " + sum);
+let sum = Math.pow((Math.pow(katet1,2)+Math.pow(katet2,2)),0.5);
+return("Hypotenusans längd i den rätvinklig triangel är " + sum.toFixed(0));
+
 }  
 
 alert(pythagoras());
