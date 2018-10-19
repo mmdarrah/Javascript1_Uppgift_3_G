@@ -11,7 +11,7 @@ function Person (name, ePost, mobil, adress){
     this.mobil  = mobil;
     this.adress = adress;
     
-    this.print = function(){//OBS!! this.adress.gataAdress så man öppna adress fårst sedan opna gataAdress.
+    this.print = function(){//OBS!! this.adress.gataAdress så man öppna adress fårst sedan öppna gataAdress.
         console.log(`${this.name}\n\n${this.adress.gataAdress}\n${this.adress.postNummer}${" "}${this.adress.ort}`);
         
     }
@@ -26,7 +26,7 @@ function Person (name, ePost, mobil, adress){
 
 let mahmud = new Person ("Mahmud Al Hakim","mahmud.alhakim@alhakim.se","072123123",
 new Adress("Hemfridsvägen 17","192 67","Sollentuna"));
-//OBS!! new Adress föratt lägga till information inom Adress Objekt.
+//OBS!! new Adress för att lägga till information inom Adress Objekt.
 let maher = new Person ("Maher Darrah","maher.darrah@darrah.se","072456521",
 new Adress("Brunsgata 25","111 38","Stockholm"));
 
