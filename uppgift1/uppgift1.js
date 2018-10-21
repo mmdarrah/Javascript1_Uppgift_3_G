@@ -29,7 +29,7 @@ new Adress("Hemfridsvägen 17","192 67","Sollentuna"));
 //OBS!! new Adress för att lägga till information inom Adress Objekt.
 let maher = new Person ("Maher Darrah","maher.darrah@darrah.se","072456521",
 new Adress("Brunsgata 25","111 38","Stockholm"));
-
+//  funktion anropa
 mahmud.print();
 
-//maher.print();
+maher.print();

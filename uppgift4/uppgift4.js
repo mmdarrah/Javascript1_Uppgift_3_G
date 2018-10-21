@@ -1,6 +1,7 @@
 
+/* Ett program som beräknar volymen och arean av en sfär */ 
 
-
+// Programmet använder Prompt för att samla data  
 let sfärsRadie = prompt("Lägga till  sfärs radie för att programmet beräkna\nsfärens volymen och arean.")
 
 sumOfvolym = function(){ // En funktion som beräkna sfärens volym
